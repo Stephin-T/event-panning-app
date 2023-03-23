@@ -87,12 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #e4f1f1
 }
 
 a {
@@ -104,4 +99,24 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.pError{
+  color: red;
+}
+
+.btnColor{
+
+  background-color: white;
+  color: green;
+}
+
+.center{
+  color: black;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 7%;
+}
+.topPadding{
+  padding-top: 5%;
 }
